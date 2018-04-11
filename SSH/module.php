@@ -1,22 +1,18 @@
 <?php
 
-define('__ROOT__', dirname(dirname(__FILE__)));
-require_once(__ROOT__ . '/libs/ModuleHelper.class.php');
-require_once(__ROOT__ . '/libs/SSH/SSH2.php');
-
 /**
  * Class SSH
  * IP-Symcon SSH Module
  *
  * @version     0.1
  * @category    Symcon
- * @package     de.codeking.symcon
+ * @package     de.codeking.symcon.ssh
  * @author      Frank Herrmann <frank@codeking.de>
  * @link        https://codeking.de
- * @link        https://github.com/CodeKing/de.codeking.symcon
+ * @link        https://github.com/CodeKing/de.codeking.symcon.ssh
  *
  */
-class SSH extends ModuleHelper
+class SSH extends IPSModule
 {
     protected $prefix = 'SSH';
 
