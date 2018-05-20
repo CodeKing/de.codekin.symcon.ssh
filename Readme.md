@@ -1,8 +1,8 @@
-# IP-Symcon 5.x SSH Client
+# IP-Symcon SSH Client
+![IP-Symcon 4.4.x](https://img.shields.io/badge/IP--Symcon-4.4.x-blue.svg)
 ![IP-Symcon 5.x](https://img.shields.io/badge/IP--Symcon-5.x-blue.svg)
 ![Issues](https://img.shields.io/github/issues/CodeKing/de.codeking.symcon.ssh.svg)
-![MIT License](https://img.shields.io/github/license/CodeKingLabs/de.codeking.symcon.ssh.svg)
-<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BX5U7SSQZDZFU" target="_blank">![Donate](https://img.shields.io/badge/Donate-Paypal-009cde.svg)</a>
+<a href="https://www.paypal.me/codeking" target="_blank">![Donate](https://img.shields.io/badge/Donate-Paypal-009cde.svg)</a>
 
 **Features**
 * establish connection to ssh server
