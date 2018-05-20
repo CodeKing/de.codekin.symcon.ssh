@@ -1,4 +1,4 @@
-# IP-Symcon SSH Client
+# IP-Symcon SSH Client Module
 ![IP-Symcon 4.4.x](https://img.shields.io/badge/IP--Symcon-4.4.x-blue.svg)
 ![IP-Symcon 5.x](https://img.shields.io/badge/IP--Symcon-5.x-blue.svg)
 ![Issues](https://img.shields.io/github/issues/CodeKing/de.codeking.symcon.ssh.svg)
