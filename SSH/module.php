@@ -1,10 +1,12 @@
 <?php
 
+include_once __DIR__ . '/../libs/helpers/autoload.php';
+
 /**
  * Class SSH
  * IP-Symcon SSH Module
  *
- * @version     0.1
+ * @version     1.1
  * @category    Symcon
  * @package     de.codeking.symcon.ssh
  * @author      Frank Herrmann <frank@codeking.de>
@@ -12,10 +14,13 @@
  * @link        https://github.com/CodeKing/de.codeking.symcon.ssh
  *
  */
-class SSH extends IPSModule
+class SSH extends Module
 {
-    protected $prefix = 'SSH';
+    use InstanceHelper;
 
+    /**
+     * @var Net_SSH2 $ssh
+     */
     private $ssh;
 
     private $host;
@@ -57,7 +62,6 @@ class SSH extends IPSModule
         $this->password = $this->ReadPropertyString('password');
     }
 
-
     /**
      * Check if connection can be established
      */
@@ -87,12 +91,12 @@ class SSH extends IPSModule
     /**
      * Execute command
      * @param string $command
-     * @return mixed;
+     * @return string;
      */
-    public function Execute($command)
+    public function Execute(string $command): string
     {
         if (!$command) {
-            exit;
+            return '';
         }
 
         // read config
