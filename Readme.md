@@ -15,9 +15,9 @@ SSH_Execute($InstanceId, $command);
 ```
 
 # Donations
-If you'd like to support further development of this module, please use the donate button below.
+If you'd like to support further development of this module, please use the donate link below.
 
-<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BX5U7SSQZDZFU" target="_blank"><img src="https://www.paypal.com/en_US/i/btn/btn_donate_LG.gif" border="0" /></a>
+<a href="https://www.paypal.me/codeking" target="_blank">www.paypal.me/codeking</a>
 
 # Credits
 Thanks to <a href="https://www.symcon.de/forum/threads/20482-SSH-per-PHP-z-B-um-AppleScript-auszuf%C3%BChren-mit-Siri-Beispiel-%29?p=185413#post185413" target="_blank">drapple</a> for inspiration.
