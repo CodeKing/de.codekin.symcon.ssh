@@ -1,6 +1,9 @@
 <?php
 
-include_once __DIR__ . '/../libs/helpers/autoload.php';
+define('__ROOT__', dirname(dirname(__FILE__)));
+require_once(__ROOT__ . '/libs/helpers/autoload.php');
+require_once(__ROOT__ . '/libs/SSH/SSH2.php');
+
 
 /**
  * Class SSH
